@@ -1,3 +1,15 @@
+@import url(https://fonts.googleapis.com/css?family=Gloria+Hallelujah);
 body {
-    font-family: 'Indie Flower', cursive;
+    margin: 200px 100px 100px 100px;
+    font-family: 'Gloria Hallelujah', cursive;
+    background-color: #EAEAEA;
+}
+.card {
+    background-color: #FAFAFA;
+    padding: 8px;
+    border-radius: 5px;
+    box-shadow: -4px 4px 5px #888888;
+}
+.row {
+    padding-bottom: 30px;
 }
