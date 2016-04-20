@@ -8,11 +8,11 @@
 (defn app []
   [:div {:class "app"}
    [:div {:class "header navbar navbar-default"}
-    [:span {:class "pull-right"}
-     [:a {:class "navbar-text"} "Log in"]
-     [:a {:class "navbar-text"} "Get a card"]
-     [:a {:class "navbar-text"} "Contact us"]
-     [:a {:class "navbar-text"} "Help"]]]
+    [:ul {:class "nav navbar-nav pull-right"}
+     [:li [:a {:href "#"} "Log in"]]
+     [:li [:a {:href "#"} "Get a card"]]
+     [:li [:a {:href "#"} "Contact us"]]
+     [:li [:a {:href "#"} "Help"]]]]
    [:div {:class "subheader row"}
     [:div {:class "col-md-6"}
      [:h3 {:class ""} "The San Jose Public Library"]]
