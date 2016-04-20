@@ -1,6 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Gloria+Hallelujah);
 body {
-    margin: 200px 100px 100px 100px;
+    margin-left: 100px;
+    margin-right:100px;
     font-family: 'Gloria Hallelujah', cursive;
     background-color: #EAEAEA;
 }

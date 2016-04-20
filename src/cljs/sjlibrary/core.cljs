@@ -7,6 +7,35 @@
 
 (defn app []
   [:div {:class "app"}
+   [:div {:class "header navbar navbar-default"}
+    [:span {:class "pull-right"}
+     [:a {:class "navbar-text"} "Log in"]
+     [:a {:class "navbar-text"} "Get a card"]
+     [:a {:class "navbar-text"} "Contact us"]
+     [:a {:class "navbar-text"} "Help"]]]
+   [:div {:class "subheader row"}
+    [:div {:class "col-md-6"}
+     [:h3 {:class ""} "The San Jose Public Library"]]
+    [:div {:class "col-md-6 pull-right"}
+     [:div {:class "input-group"}
+      [:input {:type "text" :class "form-control" :placeholder "Search"}]
+      [:span {:class "input-group-btn"}
+       [:button {:type "button" :class "btn btn-default"} "Catalog"]
+       [:button {:type "button" :class "btn btn-default"} "Article"]
+       [:button {:type "button" :class "btn btn-default"} "Site"]
+       [:button {:type "button" :class "btn btn-default"} 
+        [:span {:class "glyphicon glyphicon-search"}]]]]]]
+   [:div {:class "row"}
+    [:div {:class "col-md-12"}
+     [:ul {:class "nav nav-tabs nav-justified"}
+      [:li [:a {:href "#"} "Collections"]]
+      [:li [:a {:href "#"} "Using the Library"]]
+      [:li [:a {:href "#"} "Learn"]]
+      [:li {:class "active"} [:a {:href "#"} "Events"]]
+      [:li [:a {:href "#"} "Teens"]]
+      [:li [:a {:href "#"} "Kids"]]
+      [:li [:a {:href "#"} "About"]]
+      [:li [:a {:href "#"} "Locations"]]]]]
    [:div {:class "row"}
     [:div {:class "col-md-4"}
      [:div {:class "card"}
