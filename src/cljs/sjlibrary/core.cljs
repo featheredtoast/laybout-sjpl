@@ -7,12 +7,21 @@
 
 (defn app []
   [:div {:class "app"}
-   [:div {:class "header navbar navbar-default"}
-    [:ul {:class "nav navbar-nav pull-right"}
-     [:li [:a {:href "#"} "Log in"]]
-     [:li [:a {:href "#"} "Get a card"]]
-     [:li [:a {:href "#"} "Contact us"]]
-     [:li [:a {:href "#"} "Help"]]]]
+   [:div {:class "navbar navbar-default"}
+    [:div {:class "container-fluid"}
+     [:div {:class "navbar-header"}
+      [:button {:type "button" :class "navbar-toggle collapsed" :data-toggle "collapse" :data-target "#main-nav"}
+       [:span {:class "sr-only"} "Toggle navigation"]
+       [:span {:class "icon-bar"}]
+       [:span {:class "icon-bar"}]
+       [:span {:class "icon-bar"}]]
+      [:a {:class "navbar-brand" :href "#"} [:img {:alt "SJPL" :class "brand" :src "/images/sjpl-logo.png"}]]]
+     [:div {:class "collapse navbar-collapse" :id "main-nav"}
+      [:ul {:class "nav navbar-nav navbar-right"}
+       [:li [:a {:href "#"} "Log in"]]
+       [:li [:a {:href "#"} "Get a card"]]
+       [:li [:a {:href "#"} "Contact us"]]
+       [:li [:a {:href "#"} "Help"]]]]]]
    [:div {:class "subheader row"}
     [:div {:class "col-md-6"}
      [:h3 {:class ""} "San Jose Public Library"]]
