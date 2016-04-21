@@ -21,3 +21,8 @@ body {
 .row {
     padding-bottom: 30px;
 }
+@media all and (min-width: 48em) {
+    .content-body {
+        padding: 0 100px; 0 100px;
+    }
+}
