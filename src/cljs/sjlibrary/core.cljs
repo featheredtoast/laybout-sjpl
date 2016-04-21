@@ -15,7 +15,7 @@
      [:li [:a {:href "#"} "Help"]]]]
    [:div {:class "subheader row"}
     [:div {:class "col-md-6"}
-     [:h3 {:class ""} "The San Jose Public Library"]]
+     [:h3 {:class ""} "San Jose Public Library"]]
     [:div {:class "col-md-6 pull-right"}
      [:div {:class "input-group"}
       [:input {:type "text" :class "form-control" :placeholder "Search"}]
