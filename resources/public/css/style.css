@@ -9,7 +9,12 @@ body {
     background-color: #FAFAFA;
     padding: 8px;
     border-radius: 5px;
-    box-shadow: -4px 4px 5px #888888;
+    border-color: #888888;
+    transition: box-shadow 0.5s ease;
+ }
+.card:hover {
+    transition: box-shadow 0.5s ease;
+    box-shadow: 0px 4px 5px #888888;
 }
 .row {
     padding-bottom: 30px;
