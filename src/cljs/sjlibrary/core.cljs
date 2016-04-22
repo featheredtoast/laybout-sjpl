@@ -16,7 +16,7 @@
 (defn subnav-menu []
   [:ul {:class "nav nav-tabs nav-justified"}
    [:li [:a {:href "#"} "Collections"]]
-   [:li [:a {:href "#"} "Library Use"]]
+   [:li [:a {:href "#" :style {"white-space" "nowrap"}} "Using the Library"]]
    [:li [:a {:href "#"} "Learn"]]
    [:li {:class "active"} [:a {:href "#"} "Events"]]
    [:li [:a {:href "#"} "Teens"]]
