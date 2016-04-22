@@ -13,3 +13,7 @@ body {
 .brand {
     height: 25px;
 }
+.input-group-btn:last-child>.btn:not(:last-child) {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
