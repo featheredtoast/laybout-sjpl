@@ -42,7 +42,7 @@
        (nav-menu "nav-justified")
        [:hr]
        (subnav-menu)]]]]
-   [:div {:class "content-body"}
+   [:div {:class "content-body container"}
     [:div {:class "subheader row"}
      [:div {:class "col-md-6"}
       [:h3 {:class ""} "San Jose Public Library"]]
