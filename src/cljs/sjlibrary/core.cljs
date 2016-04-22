@@ -26,7 +26,7 @@
 
 (defn app []
   [:div {:class "app"}
-   [:div {:class "navbar navbar-default"}
+   [:div {:class "navbar navbar-default navbar-fixed-top"}
     [:div {:class "container-fluid"}
      [:div {:class "navbar-header"}
       [:button {:type "button" :class "navbar-toggle collapsed" :data-toggle "collapse" :data-target "#main-nav"}
