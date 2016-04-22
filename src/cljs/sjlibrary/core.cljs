@@ -50,9 +50,12 @@
       [:div {:class "input-group"}
        [:input {:type "text" :class "form-control" :placeholder "Search"}]
        [:span {:class "input-group-btn"}
-        [:button {:type "button" :class "btn btn-default"} "Catalog"]
-        [:button {:type "button" :class "btn btn-default"} "Article"]
-        [:button {:type "button" :class "btn btn-default"} "Site"]
+        [:button {:type "button" :class "btn btn-default dropdown-toggle" :data-toggle "dropdown"
+                  :aria-expanded "false" :aria-haspopup "true"} "Catalog " [:span {:class "caret"}]]
+        [:ul {:class "dropdown-menu"}
+         [:li [:a {:href "#"} "Catalog"]]
+         [:li [:a {:href "#"} "Article"]]
+         [:li [:a {:href "#"} "Site"]]]
         [:button {:type "button" :class "btn btn-default"} 
          [:span {:class "glyphicon glyphicon-search"}]]]]]]
     [:div {:class "hidden-xs row"}
